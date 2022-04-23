@@ -9,6 +9,8 @@ from qiskit import IBMQ
 
 print('Quantum SVM')
 print('-----------\n')
+print('-----------\n')
+
 
 shots = 8192 # Number of times the job will be run on the quantum device 
 
@@ -40,6 +42,5 @@ print('Prediction of Smoker or Non-Smoker based upon gene expression of CDKN2A\n
 print('Accuracy: ' , result['testing_accuracy'],'\n')
 print('Prediction from input data where 0 = Non-Smoker and 1 = Smoker\n')
 print(prediction)
-
 
 
